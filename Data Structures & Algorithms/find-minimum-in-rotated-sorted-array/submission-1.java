@@ -1,0 +1,12 @@
+class Solution {
+    public int findMin(int[] nums) {
+
+        int min = nums[0];
+        for ( int n : nums)
+        {
+             min = Math.min(n , min);
+        }
+        return min ;
+        
+    }
+}
